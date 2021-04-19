@@ -1,0 +1,124 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 992px) and (max-width: 1200px) {
+
+    .bannerContent {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .featuredArea::before, .featuredArea.feature2::before {
+      display: none;
+      }
+      .featuredArea::after, .featuredArea.feature-2::after {
+      display: none;
+      }
+
+
+}
+  
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+      
+    
+    .featuredArea::before, .featuredArea.feature2::before {
+      display: none;
+      }
+      .featuredArea::after, .featuredArea.feature-2::after {
+      display: none;
+      }
+
+      .blog-meta {
+        margin: -23px -1px 0px;
+        padding: 12px;
+      }
+
+      .contactList i {
+        font-size: 27px;
+        }
+        .contactList h4 {
+        font-size: 19px;
+        }
+        .contactList h4 span {
+        font-size: 13px;
+        }
+
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media only screen and (max-width: 767px) {
+    
+    .bannerContent h2 {
+      font-size: 30px;
+      }
+      .bannerContent h4 {
+        font-size: 21px;
+        }
+        .pb-100 {
+          padding-bottom: 45px;
+          }
+          .pt-100 {
+          padding-top: 45px;
+          }
+          .about-content {
+            margin-bottom: 18px;
+            }
+            .featuredArea::before, .featuredArea.feature2::before {
+              display: none;
+              }
+              .featuredArea::after, .featuredArea.feature-2::after {
+              display: none;
+              }
+              .single-featured {
+                text-align: center;
+                }
+                .single-feature {
+                text-align: center;
+                }
+                .featuredArea {
+                padding: 5px 0px;
+                }
+                .Section-tittle {
+                margin-bottom: 45px;
+                }
+                .feature-padding {
+                padding: 65px;
+                }
+                
+}
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 480px) and (max-width: 767px) {
+
+    /*.Main{
+        width: 450px;
+    }*/
+
+  }

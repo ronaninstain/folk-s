@@ -5,43 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Folk's</title>
+    <link rel="stylesheet" href="Assets/Css/bootstrap.min.css">
     <link rel="stylesheet" href="Assets/Css/all.min.css">
     <link rel="stylesheet" href="Assets/Css/Style.css">
     <link rel="stylesheet" href="Assets/Css/responsive.css">
 </head>
 <body>
-    <header class="headarea headarea-fixed">
+    <!-- Header Start -->
+    <header class="headarea header-fixed">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-3">
-                    <div class="logo">
-                        <a href="#">
-                            <span>folk's</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-9">
-                    <div class="memu">
-                        <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Target</a></li>
-                            <li><a href="">Sevices</a></li>
-                            <li><a href="">Crafting</a></li>
-                            <li><a href="">Testimonials</a></li>
-                            <li><a href="">Blog</a></li>
-                            <li><a href="">Contact</a></li>
-                        </ul>
-                    </div>
+            <div class="row">
+                <div class="col-xl-12" >
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#">Folk's</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#process">Crafting</a></li>
+                                <li><a href="#testi">Testomonials</a></li>
+                                <li><a href="#blog">Blogs</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
                 </div>
             </div>
         </div>
     </header>
 
-    <section class="bannerArea bg" style="background-image: url('Assets/Images/Banner/folksbanner.jpg');">
+    <!-- Header End -->
+
+    <!-- Banner Start -->
+    <section id="home" class="bannerArea bg" style="background-image: url('Assets/Images/Banner/folksbanner.jpg');">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-xl-12">
                     <div class="bannerContent">
                         <h4>Wellcome to our showroom</h4>
                         <h2>"Wear the tradition".</h2>
@@ -57,11 +62,14 @@
             </div>
         </div>
     </section>
+    <!-- Banner End -->
 
-    <section class="about-area pt-100 pb-100">
+    <!-- About Start -->
+
+    <section id="about" class="about-area pt-100 pb-100">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-xl-12">
                     <div class="Section-tittle">
                         <span>who we are</span>
                         <i class="fas fa-smile"></i>
@@ -77,19 +85,19 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-md-6">
                     <div class="about-content">
                         <h2>wellcome to our showroom</h2>
                         <p>Initials was to only sell hand crafted Punjabis but observing the response of out beloved customers, we decided to enlarge our shop and brought in the necessaries, casuals and formal day-to-day outwears to the delight of our customers.</p>
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-md-6">
                                 <ul>
                                     <li><i class="fas fa-hat-cowboy-side"> Cowboy Hats</i></li>
                                     <li><i class="fas fa-tshirt"> T-Shirt</i></li>
                                     <li><i class="fas fa-user-tie"> Formal Outwear</i></li>
                                 </ul>
                             </div>
-                            <div class="col-6">
+                            <div class="col-md-6">
                                 <ul>
                                     <li><i class="fas fa-socks"> Mitten Socks</i></li>
                                     <li><i class="fas fa-hat-cowboy"> Cowboy v.02</i></li>
@@ -100,14 +108,14 @@
                         <a href="" class="box-button">read more</a>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6">
                     <div class="about-img">
-                        <img src="assets/images/about/about.jpg" alt="">
+                        <img src="Assets/images/about/folksabout2.jpg" alt="">
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="single-about">
                         <i class="fas fa-tshirt"></i>
                         <h4>Shirts</h4>
@@ -115,7 +123,7 @@
                         <a href="">read more <i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="single-about">
                         <i class="fas fa-swatchbook"></i>
                         <h4>Pants</h4>
@@ -123,7 +131,7 @@
                         <a href="">read more <i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="single-about">
                         <i class="fas fa-shoe-prints"></i>
                         <h4>Shoes</h4>
@@ -136,36 +144,36 @@
     </section>
 
     <section class="featuredArea feature-1">
-        <div class="container-Fluid">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-6 feature-padding">
+                <div class="col-xl-6 feature-padding">
                     <div class="Section-tittle">
                         <span>what we do</span>
-                        <h4>Brand Recognition</h4>
+                        <h4>Recognitions</h4>
                     </div>
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <div class="single-featured">
                                 <i class="fab fa-galactic-senate"></i>
                                 <h4>Shirts</h4>
                                 <p>Comforting shirts that are resonable, hassle free, easy on the eyes and body frindly.</p>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <div class="single-featured">
                                 <i class="fab fa-galactic-senate"></i>
                                 <h4>Pants</h4>
                                 <p>Comforting pants that are resonable, hassle free, easy on the eyes and body frindly.</p>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <div class="single-featured">
                                 <i class="fab fa-galactic-senate"></i>
                                 <h4>Availability</h4>
                                 <p>Availability of both formal and casual outwears for all seasons.</p>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <div class="single-featured">
                                 <i class="fab fa-galactic-senate"></i>
                                 <h4>Shoes</h4>
@@ -178,38 +186,42 @@
         </div>
     </section>
 
+    <!-- About End -->
+
+    <!-- Feature Start -->
+
     <section class="featuredArea feature-2">
-        <div class="container-Fluid">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-6 ml-auto feature-padding">
+                <div class="col-xl-6 ml-auto feature-padding">
                     <div class="Section-tittle">
                         <span>what we do</span>
-                        <h4>Customer Satisfaction</h4>
+                        <h4>Satisfactions</h4>
                     </div>
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <div class="single-feature">
                                 <i class="fab fa-galactic-senate"></i>
                                 <h4>Sizes</h4>
                                 <p>Making sure sizes for all ages are available so that the customers find it easy.</p>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class="single-featured">
+                        <div class="col-md-6">
+                            <div class="single-feature">
                                 <i class="fab fa-galactic-senate"></i>
                                 <h4>Choices</h4>
                                 <p>Ensuring the varitry in product a particular product so that the customers choice stays above.</p>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class="single-featured">
+                        <div class="col-md-6">
+                            <div class="single-feature">
                                 <i class="fab fa-galactic-senate"></i>
                                 <h4>SkinProtect</h4>
                                 <p>Crafting clothes that suits the skin type of almost every possibility.</p>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class="single-featured">
+                        <div class="col-md-6">
+                            <div class="single-feature">
                                 <i class="fab fa-galactic-senate"></i>
                                 <h4>Exchange</h4>
                                 <p>Finding any fault after purchasing the product, a customer can always return it and take another one of any choice.</p>
@@ -221,52 +233,52 @@
         </div>
     </section>
     
-    <section class="ServicesArea pt-100 pb-100">
+    <section id="services" class="ServicesArea pt-100 pb-100">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-xl-12">
                     <div class="Section-tittle">
                         <span>What will you get</span>
                         <h4>Our Services</h4>
                         <p>Our beloved customer can find Punjabis, Shirts, Pants, Shoes for all ages and sizes in our showroom.</p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="single-service">
                         <i class="fab fa-servicestack"></i>
                         <h4>We Provide</h4>
                         <p>High quality punjabis crafted by our own hands and also designed by us truely.</p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="single-service">
                         <i class="fab fa-servicestack"></i>
                         <h4>We Provide</h4>
                         <p>Shirts that are chosen from qulity maintainted collection.</p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="single-service">
                         <i class="fab fa-servicestack"></i>
                         <h4>We Provide</h4>
                         <p>Pants which are also chosen from qulity maintainted collection.</p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="single-service">
                         <i class="fab fa-servicestack"></i>
                         <h4>We Provide</h4>
                         <p>Formal outwears for any occasions let it be a wedding, reception and even a funeral.</p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="single-service">
                         <i class="fab fa-servicestack"></i>
                         <h4>We Provide</h4>
                         <p>Casual outwears for all and everyday use that suits and makes ups any normal person's day.</p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="single-service">
                         <i class="fab fa-servicestack"></i>
                         <h4>We Provide</h4>
@@ -277,11 +289,15 @@
         </div>
     </section>
 
+    <!-- Feature End -->
 
-    <Section class="processArea pt-100 pb-100 bg" style="background-image: url(Assets/Images/Process/folksProcess.jpg);">
+    <!-- Process Start -->
+
+
+    <Section id="process" class="processArea pt-100 pb-100 bg" style="background-image: url(Assets/Images/Process/folksProcess.jpg);">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-xl-12">
                     <div class="Section-tittle">
                         <span>How we do this</span>
                         <h4>Our process</h4>
@@ -290,25 +306,25 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-3">
+                <div class="col-xl-3 col-md-6">
                     <div class="single-process">
                         <h4>Design <span>1</span></h4>
                         <p>Designed and monitored by Muhibur Rahman Taher to ensure our designed product meets customer demands.</p>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-xl-3 col-md-6">
                     <div class="single-process">
                         <h4>Design <span>2</span></h4>
                         <p>Designed and monitored by Muhibur Rahman Taher to ensure our designed product meets customer demands.</p>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-xl-3 col-md-6">
                     <div class="single-process">
                         <h4>Design <span>3</span></h4>
                         <p>Designed and monitored by Muhibur Rahman Taher to ensure our designed product meets customer demands.</p>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-xl-3 col-md-6">
                     <div class="single-process">
                         <h4>Design <span>4</span></h4>
                         <p>Designed and monitored by Muhibur Rahman Taher to ensure our designed product meets customer demands.</p>
@@ -319,10 +335,14 @@
 
     </Section>
 
-    <Section class="testimonials pt-100 pb-100 bg" style="background-image: url('Assets/Images/testimonials/test_back.jpg');">
+    <!-- Process End -->
+
+    <!-- Testimonial Start -->
+
+    <Section id="testi" class="testimonials pt-100 pb-100 bg" style="background-image: url('Assets/Images/testimonials/folkstesti.jpg');">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-xl-12">
                     <div class="Section-tittle">
                         <span>What we deliver</span>
                         <h4>what clients say</h4>
@@ -331,33 +351,34 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="single-testi">
                         <i class="fas fa-quote-left"></i>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. eiusmod tempor incididunt ut</p>
+                        <p>Good quality product ❤️❤️
+                            Thanks @folk’s team</p>
                         <div class="author-info">
-                            <img src="assets/images/testimonials/Authors/01.png" alt="">
-                            <h4>Tihfiz <span>customer</span></h4>
+                            <img src="assets/images/testimonials/Authors/raza.jpg" alt="">
+                            <h4>Mahdi Raza <span>customer</span></h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="single-testi">
                         <i class="fas fa-quote-left"></i>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. eiusmod tempor incididunt ut</p>
+                        <p>gift dilaio ekta</p>
                         <div class="author-info">
-                            <img src="assets/images/testimonials/Authors/01.png" alt="">
-                            <h4>Mihfiz <span>customer</span></h4>
+                            <img src="assets/images/testimonials/Authors/naeem.jpg" alt="">
+                            <h4>Naeem Islam Suleman <span>customer</span></h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="single-testi">
                         <i class="fas fa-quote-left"></i>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. eiusmod tempor incididunt ut</p>
+                        <p>nice cllction vatija</p>
                         <div class="author-info">
-                            <img src="assets/images/testimonials/Authors/01.png" alt="">
-                            <h4>Mohfiz <span>customer</span></h4>
+                            <img src="assets/images/testimonials/Authors/nishsar.jpg" alt="">
+                            <h4>فرحان جميل <span>customer</span></h4>
                         </div>
                     </div>
                 </div>
@@ -365,10 +386,14 @@
         </div>
     </Section>
 
-    <Section class="BlogArea pt-100 pb-100">
+    <!-- Testimonal End -->
+
+    <!-- Blog Start -->
+
+    <Section id="blog" class="BlogArea pt-100 pb-100">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-xl-12">
                     <div class="Section-tittle">
                         <span>what we think</span>
                         <h4>Our blog</h4>
@@ -377,7 +402,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="single-blog">
                         <div class="blog-img">
                             <img src="Assets/Images/Blog/folksshirts1.jpg" alt="">
@@ -393,7 +418,7 @@
                         <a href="">know more<i class="fas fa-long-arrow-alt-right"></i> </a>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="single-blog">
                         <div class="blog-img">
                             <img src="Assets/Images/Blog/folkspants.jpg" alt="">
@@ -409,7 +434,7 @@
                         <a href="">know more<i class="fas fa-long-arrow-alt-right"></i> </a>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="single-blog">
                         <div class="blog-img">
                             <img src="Assets/Images/Blog/folkspanjabis.jpg" alt="">
@@ -429,10 +454,14 @@
         </div>
     </Section>
 
+    <!-- Blog End -->
+
+    <!-- Subscribe Start -->
+
     <section class="SubscribeArea bg" style="background-image: url('Assets/Images/Subscribe/cta-bg.jpg');">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-xl-12">
                     <div class="Section-tittle">
                         <span>Our request</span>
                         <h4>Subscribe</h4>
@@ -441,7 +470,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-9 mx-auto">
+                <div class="col-xl-9 mx-auto">
                     <div class="Subscribe">
                         <form>
                             <input type="text" placeholder="Your Email">
@@ -453,10 +482,14 @@
         </div>
     </section>
 
-    <Section class="ContactArea pt-100 pb-100">
+    <!-- Subscribe End -->
+
+    <!-- Contact Start -->
+
+    <Section id="contact" class="ContactArea pt-100 pb-100">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-xl-12">
                     <div class="Section-tittle">
                         <span>Where you can find us</span>
                         <h4>Contact Us</h4>
@@ -465,27 +498,27 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-5">
+                <div class="col-md-5">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <div class="contactList">
                                 <i class="fas fa-address-book"></i>
                                 <h4>Muhibur Rahman <span>Eidgha, Sylhet</span></h4>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <div class="contactList">
                                 <i class="fas fa-address-book"></i>
                                 <h4>Aziz Masfi <span>Tillagore, Sylhet</span></h4>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <div class="contactList">
                                 <i class="fas fa-address-book"></i>
                                 <h4>Sadikul Ahsan <span>Mejortillah, Sylhet</span></h4>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <div class="contactList">
                                 <i class="fas fa-address-book"></i>
                                 <h4>Ali as <span>Mejortillah, Sylhet</span></h4>
@@ -493,7 +526,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-7">
+                <div class="col-md-7">
                     <div class="ContactForm">
                         <form>
                             <input type="text" placeholder="Name">
@@ -508,13 +541,18 @@
         </div>
     </Section>
 
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+
+
     <footer class="footerArea">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <a href=""><i class="fab fa-facebook"></i></a>
-                    <a href=""><i class="fab fa-instagram-square"></i></a>
-                    <a href=""><i class="fab fa-whatsapp-square"></i></a>
+                <div class="col-xl-12">
+                    <a href="https://www.facebook.com/folksbd"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/folks_bd/"><i class="fab fa-instagram-square"></i></a>
+                    <a href="tel:+8801678517533"><i class="fab fa-whatsapp-square"></i></a>
                     <p>&copy; folk's All rights reserved.</p>
                 </div>
             </div>
@@ -522,3 +560,5 @@
     </footer>
 </body>
 </html>
+
+<!-- Footer End -->

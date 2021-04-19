@@ -1,0 +1,5 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["ZoZfhSQ"]); }
+
+__d("XCometProfileControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f){a=b("jsRouteBuilder")("/profile.php",Object.freeze({show_switched_toast:!1}),void 0);c=a;e.exports=c}),null);
+__d("XCometVanityTabControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f){a=b("jsRouteBuilder")("/{vanity}/{sk}/",Object.freeze({}),void 0);c=a;e.exports=c}),null);
+__d("XCometVanityTimelineControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f){a=b("jsRouteBuilder")("/{vanity}/timeline/",Object.freeze({}),void 0);c=a;e.exports=c}),null);

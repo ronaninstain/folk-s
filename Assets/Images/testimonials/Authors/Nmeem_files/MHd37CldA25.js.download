@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["skIOCcY"]); }
+
+__d("TCometComposerTarget",["$InternalEnum"],(function(a,b,c,d,e,f){"use strict";f.getComposerTargetType=a;var g=b("$InternalEnum")({Event:"event",Feed:"feed",Group:"group",Page:"page",Profile:"profile",Unknown:"unknown"});f.ComposerTargetType=g;function a(a){switch(a){case"event":return g.Event;case"feed":return g.Feed;case"group":return g.Group;case"page":return g.Page;case"profile":return g.Profile}return g.Unknown}}),null);

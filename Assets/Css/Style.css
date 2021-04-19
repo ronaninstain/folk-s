@@ -7,11 +7,12 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
- body{
+ html, body{
      color:#333;
      font-size: 16px;
      line-height: 24px;
      font-family: 'poppins', sans-serif;
+     height: 100%;
  }
 
  .align-items-center{
@@ -29,29 +30,34 @@ a{
     text-decoration: none;
     color: black;
 }
-.container{
-    width: 1200px;
+
+/*.container{
+    width: 1170px;
     margin: 0 auto;
-}
-.container-Fluid{
+}*/
+
+/*.container-Fluid{
     padding: 0 15px;
     width: 100%;
     margin: 0 auto;
-}
-.row{
+}*/
+
+/*.row{
     margin: 0 -15px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-}
+}*/
+
 /*.row::before, .row::after{
     content: "";
     display: table;
     clear: both;
 }*/
-.col-1{
+
+/*.col-1{
     width: 8.33%;
 }
 .col-2{
@@ -86,8 +92,9 @@ a{
 }
 .col-12{
     width: 100%;
-}
-.col-1,
+}*/
+
+/*.col-1,
 .col-2,
 .col-3,
 .col-4,
@@ -101,16 +108,18 @@ a{
 .col-12{
   float: left;
   padding: 0 15px;
-}
+}*/
 
 /* Overlay Css*/
 
 .bg {
-    position: relative;
-    z-index: 2;
-    background-position: center;
-    background-size: cover;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 2;
+
   }
+
   .bg::before {
     position: absolute;
     z-index: -1;
@@ -133,7 +142,7 @@ a{
     font-size: 18px;
     font-weight: 800;
     border-radius: 50px;
-    padding: 10px 20px;
+    padding: 12px 20px;
   }
   
   .border-button {
@@ -190,35 +199,38 @@ a{
 
 /* Header Css*/
 
-.logo a {
-    text-transform: uppercase;
-    font-size: 26px;
-    font-weight: 800;
-    font-style: italic;
-    padding: 15px 0;
-}
-.memu ul {
-    display: flex;
-    flex-direction: row;
-}
-.memu ul li a {
-    font-size: 16px;
-    padding: 15px 25px;
-    display: block;
-    font-weight: 1000;
-}
-
-.headarea-fixed {
-    position: fixed;
-    z-index: 3;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
   
   .headarea {
-    padding: 10px 0;
+    position: absolute;
+    padding: 20px 0;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    transition: .3s;
   }
+
+  .header-fixed{
+    position: fixed;
+    background-color: #FFA07A;
+    padding: 5px 0;
+  }
+
+  .navbar-brand {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+    font-style: italic;
+    }
+    .navbar-nav.ml-auto.mb-2.mb-lg-0 li a {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    margin: 0 10px;
+    font-size: 15px;
+    display: block;
+    }
+    
   
 
 /* Banner Css */
@@ -250,9 +262,10 @@ a{
 }
 .bannerContent p {
     font-size: 16px;
-    line-height: 10px;
+    line-height: 23px;
     font-style: italic;
     font-weight: 450;
+    text-align: center;
   }
 
   .Banner-Button a {

@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["Ovs53+C"]); }
+
+__d("XCometLWIConsolidatedProductCreationControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f){a=b("jsRouteBuilder")("/ad_center/create/consolidatedad/",Object.freeze({}),void 0);c=a;e.exports=c}),null);
+__d("XCometLWIMenuCreationControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f){a=b("jsRouteBuilder")("/ad_center/create/boost_menu_ad/",Object.freeze({}),void 0);c=a;e.exports=c}),null);
